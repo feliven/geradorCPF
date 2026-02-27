@@ -1,0 +1,38 @@
+#cpf-display {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 10px;
+  border-radius: 0.5rem;
+  display: inline-block; /* Para que o padding e background se apliquem corretamente */
+}
+
+#cpf-display:hover {
+  color: white;
+  background-color: blue;
+}
+
+#generate-button {
+  display: inline-block;
+  width: 14rem;
+  height: 4rem;
+  font-size: large;
+  border-style: none;
+  border-radius: 0.5rem;
+}
+
+#generate-button:hover {
+  color: white;
+  background-color: turquoise;
+}
+
+.alert-container {
+  display: none; /* Initially hide the alert */
+  width: 12rem;
+  padding: 1rem;
+  font-size: larger;
+  text-align: center;
+  color: black;
+  background-color: chartreuse;
+  opacity: 1;
+  transition: opacity 0.25s;
+}
